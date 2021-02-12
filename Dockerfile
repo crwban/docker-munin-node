@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 
 RUN apt-get update
-RUN apt-get install -y munin-node
+RUN apt-get install -y munin-node libnet-telnet-perl
 
 ADD bootstrap.sh /root/bootstrap.sh
 
